@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    font-size: 10px;
+}
+body{
+    height: 100vh;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+body > * {
+    text-align: center;
+}
+header {
+    background-color: skyblue;
+    height: 7.5rem;
+}
+footer{
+    background-color: lightcoral;
+    height: 8.5rem;
+}
+section{
+    background-color: lightgreen;
+    flex-grow: 1;
+}

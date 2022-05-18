@@ -1,0 +1,17 @@
+div.weather__info__temp {
+    padding: 1rem;
+}
+/* weather info */
+div.weather__info{
+    font-size: 0.7rem;
+    align-items: flex-end;
+}
+/* main heading */
+h1 {
+    font-size: 3rem !important;
+    padding: 0 1rem;
+}
+/* icon */
+i {
+    font-size: 2.5rem;
+}

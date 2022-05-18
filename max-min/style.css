@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    background-image: linear-gradient(135deg, red 20%, blue );
+    height: 300px;
+    /* large screens */
+    /* min-width: 600px; */
+    /* small screens */
+    max-width: 600px;
+}

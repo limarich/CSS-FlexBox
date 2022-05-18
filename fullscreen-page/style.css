@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    background-image: linear-gradient(135deg, indigo 80%, rgb(120, 3, 204));
+    /* background-color: indigo; */
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+h1 {
+    font-size: 6.8rem;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-bottom: 1rem;
+}
+p{
+    font-size: 1.8rem;
+}
+a {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1.2rem 2.4rem;
+    text-decoration: none;
+    margin-top: 4rem;
+    font-size: 1.6rem;
+
+    transition: all 0.35s ease-in-out;
+}
+a:hover{
+    color: indigo;
+    background-color: white;
+    cursor: pointer;
+}
